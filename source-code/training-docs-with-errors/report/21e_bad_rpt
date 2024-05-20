@@ -1,0 +1,53 @@
+Grammatical analysis report for 'training-docs-with-errors/21e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  10   904   4720 providing a drinking                     
+  20    22   3942 talking to brings                        
+  23    60   4502 Stick a food                             
+  27    44    555 drinking with close                      
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             where its employees                     
+             make this bar                           
+             matters with my                         
+             charge of online                        
+             but many companies                      
+             April in Japan                          
+             skills on such                          
+             spend their after                       
+             approach at work                        
+             talking with and                        
+             try to ask                              
+             lead to talking                         
+             s all right                             
+             idea to order                           
+             order a soft                            
+             else to join                            
+             has a website                           
+             suggestions about where                 
+             beer for other                          
+             drinking with your                      
+             event a positive                        
+             saw an big                              
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 147
+Rarity caused by use of less common words: 39
+Found in common trigram corpus: 82
+Exceeded Yahoo hits threshold: 22
+Possibly ungrammatical (not in above categories): 4
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner a/an vowel/cons" attribute near "an" (word 754): 
+". I saw an big boat . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 1), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 2), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 1), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

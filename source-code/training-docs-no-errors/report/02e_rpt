@@ -1,0 +1,50 @@
+Grammatical analysis report for 'training-docs-no-errors/02e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   5    67   2068 presented the wood                       
+  16    78   2701 pharmacy of Chinese                      
+  22   935   4620 cup of ash                               
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             core of traditional                     
+             offers the country                      
+             workshops on making                     
+             percent of Japan                        
+             island that provide                     
+             required for religious                  
+             as a pharmacy                           
+             good for blood                          
+             materials that release                  
+             became a formal                         
+             cup with special                        
+             tools to form                           
+             form an ash                             
+             developed into various                  
+             most of Japanese                        
+             took the Chicago                        
+             seller of natural                       
+             recipe that included                    
+             being an option                         
+             lines that include                      
+             jump to easy                            
+             Over the 14                             
+             wrote this column                       
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 310
+Rarity caused by use of less common words: 172
+Found in common trigram corpus: 112
+Exceeded Yahoo hits threshold: 23
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 2), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

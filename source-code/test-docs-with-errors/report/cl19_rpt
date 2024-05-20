@@ -1,0 +1,44 @@
+Grammatical analysis report for 'test-docs-with-errors/cl19' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             important for college                   
+             think that college                      
+             make many and                           
+             live with only                          
+             I most have                             
+             started a part                          
+             is that college                         
+             full with people                        
+             ability of study                        
+             By these reasons                        
+             important for college                   
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 61
+Rarity caused by use of less common words: 25
+Found in common trigram corpus: 25
+Exceeded Yahoo hits threshold: 11
+Possibly ungrammatical (not in above categories): 0
+
+Grammar attributes found in the text using handwritten rules:
+
+"many with sing noun" attribute near "many" (word 69): 
+"them to make many and notice value of many "
+
+"determiner noun" attribute near "Thing" (word 171): 
+"relate many kinds of people . Thing I most have "
+
+"noun reasons" attribute near "reasons" (word 288): 
+". By these reasons , I think it is "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 1), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 1), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

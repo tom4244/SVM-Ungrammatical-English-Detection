@@ -1,0 +1,39 @@
+Grammatical analysis report for 'test-docs-no-errors/44e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  14    54   3785 expressed the Japanese                   
+  14    74    732 beauty from something                    
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             for the 2012                            
+             held a year                             
+             used the colors                         
+             disaster of a                           
+             by the 1986                             
+             ask my audience                         
+             audience a question                     
+             through my designs                      
+             designs about the                       
+             future of nature                        
+             nature in Japan                         
+             hope my clothes                         
+             through its designs                     
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 92
+Rarity caused by use of less common words: 44
+Found in common trigram corpus: 33
+Exceeded Yahoo hits threshold: 13
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

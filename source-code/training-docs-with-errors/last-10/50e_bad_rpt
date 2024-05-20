@@ -1,0 +1,68 @@
+Grammatical analysis report for 'error-added-docs/50e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   3    14    840 enjoy a apple                            
+   8     0   3374 factor these bird                        
+   8    11    364 bird of days                             
+  19    38    905 offer our Asian                          
+  20    15    397 total for Japanese                       
+  26    89   1565 jump to 66                               
+  26    22    763 66 with 80                               
+  28   936   2445 saying the village                       
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             when a apple                            
+             opens in spring                         
+             need more flat                          
+             in this dogs                            
+             been a apple                            
+             spring of 2011                          
+             is a apple                              
+             grow by 1                               
+             percent in fiscal                       
+             or about 9                              
+             to some European                        
+             accounting for about                    
+             revenue from farm                       
+             is another bright                       
+             people from South                       
+             visiting a hot                          
+             region these days                       
+             see more Chinese                        
+             year about 70                           
+             visitors on board                       
+             met a village                           
+             visitors to his                         
+             including its dynamic                   
+             one little island                       
+             regions in this                         
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 177
+Rarity caused by use of less common words: 54
+Found in common trigram corpus: 90
+Exceeded Yahoo hits threshold: 25
+Possibly ungrammatical (not in above categories): 8
+
+Grammar attributes found in the text:
+
+Shoichi Nasu / The Yomiuri Shimbun View larger Photo by Shoichi Nasu Kyushu Shinkansen train services will be able to cover the full length of Kyushu when a apple or new building at Hakata Station opens in spring 2011 . 
+"determiner a/an vowel/cons" attribute at 35: "when a apple or "
+
+Kyushu ' s residents enjoy a apple or quiet life amid the combination of its rich nature and mild weather , with the exception of the typhoons during summer and autumn . 
+"determiner a/an vowel/cons" attribute at 109: "enjoy a apple or "
+
+Of course , being far from the national capital has often been a apple or disadvantage . 
+"determiner a/an vowel/cons" attribute at 148: "been a apple or "
+
+Nonetheless , Kyushu ' s geographical location is a apple or beneficial factor these bird of days . 
+"determiner a/an vowel/cons" attribute at 241: "is a apple or "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 4), ('dtrm-an', 0), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 3), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 1), ('to-tgm', 1), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

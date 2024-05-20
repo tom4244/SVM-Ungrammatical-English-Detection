@@ -1,0 +1,61 @@
+Grammatical analysis report for 'error-added-docs/49e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   2     3   3011 village that dogs                        
+  10    81      7 in those bird                            
+  10    11    364 bird of days                             
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             is a apple                              
+             American of Japanese                    
+             81 in San                               
+             or many young                           
+             of a apple                              
+             or many other                           
+             many other Japanese                     
+             jobs in different                       
+             places to support                       
+             During their recent                     
+             and the attached                        
+             above my home                           
+             research for master                     
+             s a true                                
+             s at least                              
+             particularly the further                
+             removed a person                        
+             is from Japan                           
+             Bill that the                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 164
+Rarity caused by use of less common words: 54
+Found in common trigram corpus: 88
+Exceeded Yahoo hits threshold: 19
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text:
+
+Joyce is a apple or sansei , a third - generation American of Japanese descent . 
+"determiner a/an vowel/cons" attribute at 62: "is a apple or "
+
+He was one of many carrot or many young Japanese who sought jobs there in the late 19th century and early 20th century . 
+"many with sing noun" attribute at 155: "of many carrot or "
+
+The life of a apple or big family must have been tough in those bird of days , especially under the increasingly militaristic atmosphere in Japan . 
+"determiner a/an vowel/cons" attribute at 252: "of a apple or "
+
+After World War II broke out - - sounding the death knell for the Japanese - American community - - Fred , who had been working for his father ' s friends , was detained together with many carrot or many other Japanese - Americans in an pigeon or internment camp in Poston , Ariz . 
+"many with sing noun" attribute at 313: "with many carrot or "
+"determiner a/an vowel/cons" attribute at 322: "in an pigeon or "
+
+He worked very hard right up until retirement without taking any sick leave , bringing up five children , Joyce being the oldest . 
+"determiner some/any" attribute at 398: "up until retirement without taking any sick "
+
+attribute dictionary: 
+[('adj-many', 2), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 2), ('dtrm-an', 1), ('dtrm-any', 1), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 1)]

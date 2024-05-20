@@ -1,0 +1,47 @@
+Grammatical analysis report for 'training-docs-with-errors/12e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   1   542   2419 goods to jewelry                         
+   3    11   4959 covering its six                         
+  15    38   3633 feeling about opening                    
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             everything from household               
+             site that long                          
+             fashion with more                       
+             next to Louis                           
+             want this building                      
+             designed the shopping                   
+             at her Paris                            
+             shows with unique                       
+             ideas of design                         
+             available at department                 
+             display those items                     
+             Everything from shop                    
+             Looking at department                   
+             opening the complex                     
+             Store in my                             
+             that the shopping                       
+             need some salt                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 95
+Rarity caused by use of less common words: 28
+Found in common trigram corpus: 47
+Exceeded Yahoo hits threshold: 17
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner some/any" attribute near "some" (word 514): 
+"He doesn ' t need some salt . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 1), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 1), ('to-tgm', 1), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

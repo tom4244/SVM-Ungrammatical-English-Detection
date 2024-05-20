@@ -1,0 +1,36 @@
+Grammatical analysis report for 'test-docs-with-errors/cl17' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             experience for college                  
+             think that college                      
+             money by themselves                     
+             parents for all                         
+             need by their                           
+             by their college                        
+             experience to earn                      
+             if a college                            
+             priority to study                       
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 49
+Rarity caused by use of less common words: 7
+Found in common trigram corpus: 33
+Exceeded Yahoo hits threshold: 9
+Possibly ungrammatical (not in above categories): 0
+
+Grammar attributes found in the text using handwritten rules:
+
+"noun reasons" attribute near "reasons" (word 10): 
+"I have two reasons . Firstly , part - "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 1), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

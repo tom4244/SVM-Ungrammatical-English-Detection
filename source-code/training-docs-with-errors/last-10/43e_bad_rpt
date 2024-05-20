@@ -1,0 +1,43 @@
+Grammatical analysis report for 'error-added-docs/43e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   5    14    861 Driver by director                       
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             learn the past                          
+             as a apple                              
+             one with mechanical                     
+             to the 1978                             
+             genre of classic                        
+             uses his unique                         
+             on its more                             
+             Shot in a                               
+             sequence in recent                      
+             audience with something                 
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 65
+Rarity caused by use of less common words: 24
+Found in common trigram corpus: 30
+Exceeded Yahoo hits threshold: 10
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text:
+
+Even so , Ryan Gosling delivers a apple or great performance as a man who gives off the mythical aura of a silver - screen hero . 
+"determiner a/an vowel/cons" attribute at 62: "delivers a apple or "
+
+By day , the nameless man ( Gosling ) works as a apple or stuntman . 
+"determiner a/an vowel/cons" attribute at 94: "as a apple or "
+
+Similar to the 1978 film The Driver by director Walter Hill , Drive could be considered film noir , a apple or genre of classic crime dramas . 
+"determiner a/an vowel/cons" attribute at 178: ", a apple or "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 3), ('dtrm-an', 0), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

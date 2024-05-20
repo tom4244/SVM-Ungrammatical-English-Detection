@@ -1,0 +1,47 @@
+Grammatical analysis report for 'training-docs-no-errors/08e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  14    15   2995 March by Universal                       
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             making their professional               
+             performing on stage                     
+             has no minimum                          
+             age for participants                    
+             making their professional               
+             States at 17                            
+             17 in 1999                              
+             fans of classical                       
+             countries to teach                      
+             spotlight at this                       
+             at this year                            
+             performed with an                       
+             among other pieces                      
+             playing to his                          
+             t a symbol                              
+             symbol of intelligence                  
+             intelligence any more                   
+             and the genre                           
+             on their styles                         
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 118
+Rarity caused by use of less common words: 48
+Found in common trigram corpus: 50
+Exceeded Yahoo hits threshold: 19
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text using handwritten rules:
+
+"many with sing noun" attribute near "Many" (word 350): 
+"said . " Many superb piano teachers in "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

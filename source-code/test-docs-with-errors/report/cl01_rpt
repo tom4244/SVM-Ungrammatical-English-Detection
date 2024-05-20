@@ -1,0 +1,53 @@
+Grammatical analysis report for 'test-docs-with-errors/cl01' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0    57   1431 agree this opinion                       
+   3    91    608 skill with working                       
+   4     0     51 can many variety                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             important for college                   
+             lot of thing                            
+             talk to owner                           
+             others at college                       
+             money from working                      
+             life of college                         
+             make a effort                           
+             For these difficult                     
+             owners both of                          
+             turned into our                         
+             need for eating                         
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 43
+Rarity caused by use of less common words: 7
+Found in common trigram corpus: 22
+Exceeded Yahoo hits threshold: 11
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+"preposition missing" attribute near "agree" (word 1): 
+"I agree this opinion that part - "
+
+"many with sing noun" attribute near "many" (word 82): 
+". we can many variety friends too . "
+
+"determiner noun" attribute near "thing" (word 124): 
+"inspiration and it will be useful thing . Second , "
+
+"determiner a/an vowel/cons" attribute near "a" (word 149): 
+"have to make a effort to get a "
+
+"many with sing noun" attribute near "many" (word 200): 
+". Third , many University student want more "
+
+
+attribute dictionary: 
+[('adj-many', 2), ('adj-tgm', 1), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 1), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 1), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 1), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

@@ -1,0 +1,64 @@
+Grammatical analysis report for 'error-added-docs/47e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   4    81      7 In those bird                            
+   4    11    364 bird of days                             
+  11    50   2500 gain that rank                           
+  16    13    840 becomes a apple                          
+  40   266   3895 win for tomorrow                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             12 at their                             
+             been a apple                            
+             white on TV                             
+             In that dogs                            
+             kind of stable                          
+             is a apple                              
+             Only about 70                           
+             out of 800                              
+             s a tough                               
+             competition to gain                     
+             saw about 15                            
+             after the powerful                      
+             rank of west                            
+             player in my                            
+             huge these days                         
+             see the middle                          
+             of the stands                           
+             when the venue                          
+             column that it                          
+             move the present                        
+             say the recent                          
+             As the matches                          
+             signs with some                         
+             Friday every month                      
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 188
+Rarity caused by use of less common words: 68
+Found in common trigram corpus: 91
+Exceeded Yahoo hits threshold: 24
+Possibly ungrammatical (not in above categories): 5
+
+Grammar attributes found in the text:
+
+I ' ve been a apple or fan of sumo all my life . 
+"determiner a/an vowel/cons" attribute at 59: "been a apple or "
+
+However , I have never attended a apple or real sumo match , and I thought it was about time I should . 
+"determiner a/an vowel/cons" attribute at 122: "attended a apple or "
+
+In that dogs kind of stable there is a apple or rikishi from my home prefecture of Miyazaki who hopes to become a sekitori . 
+"determiner a/an vowel/cons" attribute at 188: "is a apple or "
+
+When he appears in the dohyo ring , the atmosphere becomes a apple or bit more solemn . 
+"determiner a/an vowel/cons" attribute at 340: "becomes a apple or "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 4), ('dtrm-an', 0), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 2), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

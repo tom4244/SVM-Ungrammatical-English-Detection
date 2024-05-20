@@ -1,0 +1,66 @@
+Grammatical analysis report for 'training-docs-with-errors/28e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   9    24   2051 were about trading                       
+   9    24   2051 were about trading                       
+   9    19    946 trading of cell                          
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             orders from police                      
+             said the site                           
+             efforts to single                       
+             websites that often                     
+             fail to delete                          
+             affairs for at                          
+             half of 2009                            
+             contained the largest                   
+             Looking at types                        
+             related to illegal                      
+             trading of bank                         
+             refer to illegal                        
+             dealers in November                     
+             file a request                          
+             request by e                            
+             mail for such                           
+             said most such                          
+             related to illegal                      
+             Many other websites                     
+             related to illegal                      
+             posts about drugs                       
+             to a Singapore                          
+             company in 2009                         
+             year for using                          
+             Internet to purchase                    
+             purchase the drugs                      
+             know any drug                           
+             websites to obtain                      
+             used an online                          
+             had no past                             
+             believe the Internet                    
+             phones to look                          
+             both of Joe                             
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 154
+Rarity caused by use of less common words: 53
+Found in common trigram corpus: 65
+Exceeded Yahoo hits threshold: 33
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+"many with sing noun" attribute near "Many" (word 675): 
+"were allowed . Many also cited the anonymity of the Internet "
+
+"determiner both" attribute near "both" (word 806): 
+"I talked with both of Joe and Bob . "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 1), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

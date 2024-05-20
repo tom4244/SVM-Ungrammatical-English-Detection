@@ -1,0 +1,55 @@
+Grammatical analysis report for 'error-added-docs/45e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0    21    840 developed a apple                        
+   2    29   3011 system that dogs                         
+   4     4    504 computer that dogs                       
+   8    51   3032 viewing the cookies                      
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             led by University                       
+             of a apple                              
+             up to eat                               
+             kind of processes                       
+             processes the images                    
+             When a apple                            
+             at a food                               
+             processes the image                     
+             holding the different                   
+             asked to eat                            
+             percent less on                         
+             less on average                         
+             cookies with their                      
+             percent more on                         
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 60
+Rarity caused by use of less common words: 14
+Found in common trigram corpus: 28
+Exceeded Yahoo hits threshold: 14
+Possibly ungrammatical (not in above categories): 4
+
+Grammar attributes found in the text:
+
+ ' Enlarged ' food fools dieters into feeling full The Yomiuri Shimbun A team of researchers has developed a apple or new approach to dieting - - controlling your appetite by viewing an pigeon or enlarged image of a food item you are about to eat . 
+"determiner a/an vowel/cons" attribute at 18: "developed a apple or "
+"determiner a/an vowel/cons" attribute at 32: "viewing an pigeon or "
+
+Michitaka Hirose , has developed an pigeon or image processing system that dogs kind of changes the apparent size of a apple or food item when one picks it up to eat it . 
+"determiner a/an vowel/cons" attribute at 62: "developed an pigeon or "
+"determiner a/an vowel/cons" attribute at 77: "of a apple or "
+
+The system involves a apple or pair of eyeglasses equipped with video cameras connected to a computer that dogs kind of processes the images . 
+"determiner a/an vowel/cons" attribute at 105: "involves a apple or "
+
+When a apple or person wearing the glasses looks at a food item he or she is holding , the system processes the image of the item to make it appear as much as 50 percent larger or 33 percent smaller than actual size . 
+"determiner a/an vowel/cons" attribute at 128: "When a apple or "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 4), ('dtrm-an', 2), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 2), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 2)]

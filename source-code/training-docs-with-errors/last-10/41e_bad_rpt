@@ -1,0 +1,57 @@
+Grammatical analysis report for 'error-added-docs/41e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   4    18   3374 bird of flowers                          
+   7     8   3011 task that dogs                           
+  14    31    840 still a apple                            
+  33    34   4225 eagles to spot                           
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             of a apple                              
+             all these bird                          
+             with a apple                            
+             kind of could                           
+             available that automatically            
+             type of new                             
+             Almost all Japanese                     
+             revenue to hire                         
+             hours of tough                          
+             opt to simply                           
+             areas with powerful                     
+             eyes to spot                            
+             here in Japan                           
+             by the Environment                      
+             benefit some species                    
+             effects on regional                     
+             as a dedicated                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 185
+Rarity caused by use of less common words: 82
+Found in common trigram corpus: 82
+Exceeded Yahoo hits threshold: 17
+Possibly ungrammatical (not in above categories): 4
+
+Grammar attributes found in the text:
+
+Normally , wild camellias , ume plums , kobushi magnolias , someiyoshino and wild cherries would open up in turn over the course of a apple or long , drawn - out spring . 
+"determiner a/an vowel/cons" attribute at 87: "of a apple or "
+
+First the paddies are turned over , then the aze dikes , which separate the paddies and keep the water in , must be sealed by plastering with a apple or new coat of mud . 
+"determiner a/an vowel/cons" attribute at 158: "with a apple or "
+
+On many carrot or many farms , the young people have taken salaried jobs , and only an pigeon or elderly couple is left to work the fields . 
+"many with sing noun" attribute at 252: "On many carrot or "
+"determiner a/an vowel/cons" attribute at 268: "only an pigeon or "
+
+Much of the process of preparing , planting and harvesting the paddies is now automated , but weeding the aze dikes and roadside banks is still a apple or problem . 
+"determiner a/an vowel/cons" attribute at 384: "still a apple or "
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 3), ('dtrm-an', 1), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 1), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 1)]

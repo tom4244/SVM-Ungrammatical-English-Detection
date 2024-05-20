@@ -1,0 +1,46 @@
+Grammatical analysis report for 'training-docs-no-errors/23e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0   649    539 progress in latest                       
+   2    45   1965 Independent a positive                   
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             features more powerful                  
+             lyrics that are                         
+             talent for using                        
+             In this album                           
+             beyond her comfort                      
+             single in December                      
+             Beyond the dream                        
+             direction by keeping                    
+             keeping a flexible                      
+             recording the album                     
+             making this album                       
+             than her previous                       
+             in a commercial                         
+             said the lyrics                         
+             feeling many things                     
+             in the Michael                          
+             work with artists                       
+             through my lyrics                       
+             Using this power                        
+             love to deliver                         
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 100
+Rarity caused by use of less common words: 35
+Found in common trigram corpus: 43
+Exceeded Yahoo hits threshold: 20
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

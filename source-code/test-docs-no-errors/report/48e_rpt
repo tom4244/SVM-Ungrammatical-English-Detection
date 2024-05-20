@@ -1,0 +1,45 @@
+Grammatical analysis report for 'test-docs-no-errors/48e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0    12    570 programs from regions                    
+  26     6   3629 Even the relating                        
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             switch on my                            
+             on my PC                                
+             access a radio                          
+             through several radio                   
+             started in February                     
+             role in emergency                       
+             service in December                     
+             to the 450                              
+             from the requests                       
+             Among the station                       
+             enjoy the live                          
+             time at middle                          
+             give their reaction                     
+             understand the region                   
+             were the hosts                          
+             world of Internet                       
+             running their daily                     
+             with other traditional                  
+             relating of a                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 139
+Rarity caused by use of less common words: 47
+Found in common trigram corpus: 71
+Exceeded Yahoo hits threshold: 19
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

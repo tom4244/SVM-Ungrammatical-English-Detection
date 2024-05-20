@@ -1,0 +1,41 @@
+Grammatical analysis report for 'nontranslated-docs/49e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             American of Japanese                    
+             81 in San                               
+             many other Japanese                     
+             jobs in different                       
+             places to support                       
+             During their recent                     
+             and the attached                        
+             above my home                           
+             research for master                     
+             s a true                                
+             s at least                              
+             particularly the further                
+             removed a person                        
+             is from Japan                           
+             Bill that the                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 160
+Rarity caused by use of less common words: 53
+Found in common trigram corpus: 92
+Exceeded Yahoo hits threshold: 15
+Possibly ungrammatical (not in above categories): 0
+
+Grammar attributes found in the text:
+
+He worked very hard right up until retirement without taking any sick leave , bringing up five children , Joyce being the oldest . 
+"determiner some/any" attribute at 381: "up until retirement without taking any sick "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-any', 1), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

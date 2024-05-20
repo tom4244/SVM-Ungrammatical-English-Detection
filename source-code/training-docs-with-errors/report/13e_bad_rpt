@@ -1,0 +1,65 @@
+Grammatical analysis report for 'training-docs-with-errors/13e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0    61   4635 engagement with photos                   
+   7    75   4635 started an engagement                    
+   9    82   4635 began its engagement                     
+  19     4   4761 posting their everyday                   
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             take their photos                       
+             photos that capture                     
+             visited the shop                        
+             for another photo                       
+             memory for us                           
+             dating in an                            
+             as a dating                             
+             couple into a                           
+             turning the trend                       
+             trend into a                            
+             capture a more                          
+             took the photos                         
+             business for about                      
+             for about 40                            
+             hire the studio                         
+             studio to take                          
+             take their wedding                      
+             photos for about                        
+             since the studio                        
+             feature a couple                        
+             of their middle                         
+             during the wedding                      
+             printed on wedding                      
+             photos in its                           
+             in its November                         
+             featuring the royal                     
+             attention in Japan                      
+             consider the engagement                 
+             up this happy                           
+             picture at home                         
+             trip to their                           
+             used to posting                         
+             understanding of privacy                
+             need some salt                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 113
+Rarity caused by use of less common words: 31
+Found in common trigram corpus: 44
+Exceeded Yahoo hits threshold: 34
+Possibly ungrammatical (not in above categories): 4
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner some/any" attribute near "some" (word 630): 
+"He doesn ' t need some salt . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 1), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 2), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

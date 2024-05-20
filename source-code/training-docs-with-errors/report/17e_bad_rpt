@@ -1,0 +1,50 @@
+Grammatical analysis report for 'training-docs-with-errors/17e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  40    34    735 got another performance                  
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             just another pretty                     
+             just by standing                        
+             scripts that bring                      
+             and his technique                       
+             attack the young                        
+             interesting to put                      
+             skills at a                             
+             what the director                       
+             s his appearance                        
+             accepted in Japan                       
+             almost no work                          
+             experience with small                   
+             With the big                            
+             time on stage                           
+             dream to land                           
+             in the 2003                             
+             in the 2011                             
+             on the 2012                             
+             much in demand                          
+             stage that allows                       
+             performance in me                       
+             performance this time                   
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 179
+Rarity caused by use of less common words: 72
+Found in common trigram corpus: 84
+Exceeded Yahoo hits threshold: 22
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner sing/plur" attribute near "a" (word 1140): 
+"' t like a train station dogs . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 1), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

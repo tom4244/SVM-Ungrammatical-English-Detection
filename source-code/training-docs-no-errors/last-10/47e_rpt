@@ -1,0 +1,46 @@
+Grammatical analysis report for 'nontranslated-docs/47e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  11    50   2500 gain that rank                           
+  40   266   3895 win for tomorrow                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             12 at their                             
+             white on TV                             
+             In that stable                          
+             Only about 70                           
+             out of 800                              
+             s a tough                               
+             competition to gain                     
+             saw about 15                            
+             after the powerful                      
+             rank of west                            
+             player in my                            
+             huge these days                         
+             see the middle                          
+             of the stands                           
+             when the venue                          
+             column that it                          
+             move the present                        
+             say the recent                          
+             As the matches                          
+             signs with some                         
+             Friday every month                      
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 186
+Rarity caused by use of less common words: 69
+Found in common trigram corpus: 94
+Exceeded Yahoo hits threshold: 21
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text:
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-tgm', 0), ('prep-tgm', 2), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

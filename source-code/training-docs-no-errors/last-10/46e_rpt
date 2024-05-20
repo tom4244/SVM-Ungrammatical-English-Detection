@@ -1,0 +1,46 @@
+Grammatical analysis report for 'nontranslated-docs/46e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  17    53   3552 forget about leadership                  
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             with our global                         
+             now both a                              
+             earlier this month                      
+             members with skills                     
+             leaders in society                      
+             clubs in more                           
+             clubs in Japan                          
+             just a club                             
+             club for making                         
+             returns to our                          
+             to our regular                          
+             contribution at the                     
+             Although a guest                        
+             helped her a                            
+             joined this club                        
+             up my English                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 147
+Rarity caused by use of less common words: 54
+Found in common trigram corpus: 76
+Exceeded Yahoo hits threshold: 16
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text:
+
+Brushing up one ' s English skills in a friendly atmosphere is now both a means and an end . 
+"article sing/plur" attribute at 81: "both a means and "
+
+The Fukuoka club is one of about 95 Toastmasters clubs in Japan and it has one of the longest histories of any such group in the country with its first meeting held in 1954 . 
+"determiner some/any" attribute at 211: "of the longest histories of any such "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 1), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-any', 1), ('dtrm-asp', 1), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

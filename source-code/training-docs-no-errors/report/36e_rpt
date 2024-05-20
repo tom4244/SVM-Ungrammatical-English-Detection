@@ -1,0 +1,51 @@
+Grammatical analysis report for 'training-docs-no-errors/36e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   8    44   3140 samples with permission                  
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             Researchers to study                    
+             team of Japanese                        
+             Europe about 400                        
+             areas in southern                       
+             appear in ancient                       
+             Experts on local                        
+             spread in Japan                         
+             Japan several years                     
+             before the 1992                         
+             attention of Japanese                   
+             plans to obtain                         
+             obtain their blood                      
+             information of Japanese                 
+             progress in DNA                         
+             project from this                       
+             from this fiscal                        
+             signs in Japanese                       
+             connection to Japan                     
+             appear on Japanese                      
+             holds a record                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 161
+Rarity caused by use of less common words: 70
+Found in common trigram corpus: 70
+Exceeded Yahoo hits threshold: 20
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text using handwritten rules:
+
+"noun reasons" attribute near "reason" (word 483): 
+"not the only reason Japons believe they are descendants "
+
+"many with sing noun" attribute near "many" (word 542): 
+"visited , how many of them left the delegation along the way "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 1), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

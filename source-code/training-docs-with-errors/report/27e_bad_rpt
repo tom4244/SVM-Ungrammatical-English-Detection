@@ -1,0 +1,46 @@
+Grammatical analysis report for 'training-docs-with-errors/27e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  11    23   1728 facilities on southern                   
+  12     9   2925 600 to Hawaii                            
+  13    25    953 200 to Australia                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             according to sources                    
+             agreed that Japan                       
+             attention in Japan                      
+             costs for training                      
+             confirmed by foreign                    
+             officials from both                     
+             from both countries                     
+             at a vice                               
+             upon in 2006                            
+             2006 to 8                               
+             upon in 2009                            
+             in the 2006                             
+             both of Joe                             
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 90
+Rarity caused by use of less common words: 33
+Found in common trigram corpus: 41
+Exceeded Yahoo hits threshold: 13
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner both" attribute near "both" (word 434): 
+"I talked with both of Joe and Bob . "
+
+"determiner sing/plur" attribute near "a" (word 445): 
+"' t like a train station dogs . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 1), ('dtrm-dsp', 1), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 2), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

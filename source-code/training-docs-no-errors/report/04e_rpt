@@ -1,0 +1,51 @@
+Grammatical analysis report for 'training-docs-no-errors/04e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   0    50    627 ahead to model                           
+   2    58    748 collection at Foot                       
+  16   414    627 treat for model                          
+  17    67    627 track to model                           
+  23    20   2834 floor of Foot                            
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             comes to model                          
+             collection of 6                         
+             are your thing                          
+             exhibition of about                     
+             run on lines                            
+             lines in almost                         
+             run on tracks                           
+             than most model                         
+             about his extensive                     
+             knowledge about electrical              
+             built a private                         
+             run on tracks                           
+             tracks that pass                        
+             train into a                            
+             in his models                           
+             of the 450                              
+             beauty of machines                      
+             days in photos                          
+             visitors to think                       
+             up for larger                           
+             involved in machine                     
+             has about 6                             
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 137
+Rarity caused by use of less common words: 61
+Found in common trigram corpus: 49
+Exceeded Yahoo hits threshold: 22
+Possibly ungrammatical (not in above categories): 5
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 2), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

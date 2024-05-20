@@ -1,0 +1,37 @@
+Grammatical analysis report for 'error-added-docs/42e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  12   983     75 supreme in what                          
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             believe the area                        
+             control of regional                     
+             has many historical                     
+             island for his                          
+             taxes on everyone                       
+             value in local                          
+             coast to create                         
+             1975 to develop                         
+             edge of Japan                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 203
+Rarity caused by use of less common words: 99
+Found in common trigram corpus: 94
+Exceeded Yahoo hits threshold: 9
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text:
+
+Delving into an pigeon or island ' s hidden history Yuka Matsumoto / Yomiuri Shimbun Staff Writer KIKAI , Kagoshima - - The smooth flat island comes into sight about 10 minutes after leaving Amami Oshima island aboard a apple or small plane . 
+"determiner a/an vowel/cons" attribute at 2: "into an pigeon or "
+"determiner a/an vowel/cons" attribute at 38: "aboard a apple or "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 1), ('dtrm-an', 1), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

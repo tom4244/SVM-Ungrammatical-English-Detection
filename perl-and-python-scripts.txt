@@ -1,0 +1,64 @@
+Perl and Python scripts used in the project
+
+change-bing.pl:  Truncate the Bing word frequency list (to be used in the trigram checker) to 5000 items and add a frequency ranking number to each word.
+
+check-rule.py: Check the functioning of a new handwritten rule to measure a linguistic feature.
+
+clean-checker.pl: Check that lines in a cleaned corpus file are properly formed ngram lines.
+
+cleaned-vs-entire.pl: Check 5-gram lines from the Google corpus that have been cleaned up and formatted for the classifier application against pre-processed ones to make sure no data was lost in processing.
+
+cleaner.pl: Ensure all '5-grams' from the Google corpus have at least 4 words with at most one quote or other punctuation symbol. Discard lines with non-ascii or special characters.
+
+cleaner3.pl: Remove occurances in Google corpus of quote marks melded together with words.
+
+combine-trigram-lines.pl: Eliminate duplicate trigram lines in corpus due to the same trigram seen in books from different years; add quantities (times trigram seen in books) from years together.
+
+compare-tags.pl: Compare part-of-speech tagging of three different POS taggers for the same file.
+
+compare.py: Compare part-of-speech tagging of pfp, Stanford POS tagger, and Stanford parser.
+
+csv-to-5gram.pl: Reformat lines in Google corpus csv file to space delimited lines. Discard lines that don't appear to be valid 5-gram lines.
+detect-attributes-slow-linear.py Experiment with linear classifier (processing was slower than with RBF kernel with same or less accuracy).
+
+filter.pl: Prepare Google 5-gram corpus for use with the Stanford Parser including cleaning up, removing duplicates, and converting items such as contractions to forms recognized by the parser.
+
+find-longest.pl: Filter ngram lines longer than 63 characters out of the corpus since they are either highly specialized technical terms, proper nouns, or german words.
+
+five-tokens.pl: Reformat Google corpus tokens to Stanford Parser format.
+
+fix-hunpos.pl: Correct some Hunpos tagger idiosyncracies to better match the Penn Treebank Tag-set.
+
+fix-quote-paren.pl: Correct some tagger idiosyncracies.
+hunpos-tag.py Part-of-speech tag a text file using the Hunpos tagger.
+
+indiv_corpus.pl: Extract specialized individual trigram corpuses from the cleaned-up Google ngram corpus for each word in the classifier 'checkwords' list.
+
+lingua-tagger.pl: Part-of-speech tag a text file using the Lingua tagger.
+little-to-littler.pl: Filter out ngram lines that do not appear to contain valid ngrams.
+
+make-3grams.pl: Extract trigrams from the cleaned-up Google 5-gram corpus.
+
+make-corpus.pl: Make a sorted word list from a file containing tagged trigrams to make it easier to see the trigram file's word content.
+
+make-text-mistakes.pl: Put varying numbers of predefined types of English grammatical errors in random but syntactically fitting places in a text file.
+
+number-words.pl: Count all words in a text file and place each word's number beside it.
+
+pad-with-spaces.pl: Pad lines in text file with spaces to make them uniform length to prepare for binary search.
+
+pfp-tag.py: Part-of-speech tag a text file using the pfp tagger.
+
+re-add-numbers.pl: Add year and occurences numbers back to corpus ngram lines after they have been tagged.
+
+reformat-hunpos.py: Reformat tagged ngram lines and fix some tags, Python version.
+
+reformat_hunpos.pl: Reformat tagged ngram lines and fix some tags, Perl version (4X faster than the Python version).
+
+search-grams.py: Binary search a trigram corpus for a trigram.
+
+single-test.py: Stripped down classifier program for trying new handwritten rules.
+
+space.pl: Prepare a file consisting of one sentence per line to be tagged by the Hunpos tagger by adding an extra newline at the end of each sentence.
+
+yahoo_query.py: Use Yahoo limited web search to find number of times a sequence of words is currently found in documents on the world wide web.

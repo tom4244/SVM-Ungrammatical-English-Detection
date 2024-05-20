@@ -1,0 +1,62 @@
+Grammatical analysis report for 'training-docs-with-errors/31e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   2    15    474 months on secret                         
+   8    10   3512 Taiwan both make                         
+  15   707   1542 250 at its                               
+  19    83   1969 so to individuals                        
+  20     3   3384 contracts every fiscal                   
+  26    76    977 much the islands                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             Plan to buy                             
+             ago in secret                           
+             Islands in Washington                   
+             plans to purchase                       
+             challenge a Democratic                  
+             doubt in terms                          
+             which a Chinese                         
+             Islands in 2010                         
+             according to sources                    
+             factory to process                      
+             both the nation                         
+             plans to own                            
+             described the owner                     
+             mine for 30                             
+             regarding his land                      
+             like the central                        
+             trust the current                       
+             2002 with the                           
+             visited the man                         
+             buy your land                           
+             purchasing the three                    
+             issue to an                             
+             sign a sales                            
+             when his contract                       
+             not that expensive                      
+             because the ministry                    
+             anyone to land                          
+             buying the three                        
+             fit the administrative                  
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 229
+Rarity caused by use of less common words: 72
+Found in common trigram corpus: 122
+Exceeded Yahoo hits threshold: 29
+Possibly ungrammatical (not in above categories): 6
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner sing/plur" attribute near "a" (word 1076): 
+"' t like a train station dogs . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 1), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 3), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 2), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 1), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

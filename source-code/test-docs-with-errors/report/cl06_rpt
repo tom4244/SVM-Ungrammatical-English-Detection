@@ -1,0 +1,40 @@
+Grammatical analysis report for 'test-docs-with-errors/cl06' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  15    46    601 both of study                            
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             important for college                   
+             get an ability                          
+             important for college                   
+             happen at their                         
+             at their workplace                      
+             with the both                           
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 50
+Rarity caused by use of less common words: 14
+Found in common trigram corpus: 29
+Exceeded Yahoo hits threshold: 6
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text using handwritten rules:
+
+"noun reasons" attribute near "reasons" (word 16): 
+"I have several reasons and anxiety . The first "
+
+"noun reasons" attribute near "reasons" (word 134): 
+". For these reasons , I insist that a "
+
+"determiner both" attribute near "both" (word 225): 
+"cope with the both of study and work . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 1), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 2), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

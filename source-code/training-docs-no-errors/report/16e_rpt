@@ -1,0 +1,38 @@
+Grammatical analysis report for 'training-docs-no-errors/16e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             set of director                         
+             hotel to write                          
+             tips from their                         
+             normally in an                          
+             Province to a                           
+             moved to Japan                          
+             Based in Japan                          
+             opportunities for Japanese              
+             feature in Chinese                      
+             as for Chinese                          
+             cast in Japanese                        
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 94
+Rarity caused by use of less common words: 36
+Found in common trigram corpus: 47
+Exceeded Yahoo hits threshold: 11
+Possibly ungrammatical (not in above categories): 0
+
+Grammar attributes found in the text using handwritten rules:
+
+"many with sing noun" attribute near "Many" (word 69): 
+"bizarre comedy . Many of the cast are from Yoshimoto "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

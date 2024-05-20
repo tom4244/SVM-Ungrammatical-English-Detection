@@ -1,0 +1,30 @@
+Grammatical analysis report for 'training-docs-no-errors/22e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  12    87    128 like its various                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             starting with his                       
+             as a cool                               
+             within a castle                         
+             elements from several                   
+             come from Jack                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 85
+Rarity caused by use of less common words: 47
+Found in common trigram corpus: 32
+Exceeded Yahoo hits threshold: 5
+Possibly ungrammatical (not in above categories): 1
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 0), ('prnper-tgm', 0), ('prnpos-tgm', 1), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

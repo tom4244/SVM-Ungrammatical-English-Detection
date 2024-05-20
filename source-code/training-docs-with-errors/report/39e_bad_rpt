@@ -1,0 +1,51 @@
+Grammatical analysis report for 'training-docs-with-errors/39e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   2    30    608 working for authorities                  
+   7    56   2404 Korea to demand                          
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             according to sources                    
+             working for Chinese                     
+             said the move                           
+             authorities in China                    
+             Il in December                          
+             confirmed that China                    
+             working for Chinese                     
+             details about its                       
+             discovered by its                       
+             by its authorities                      
+             According to To                         
+             from the Citizens                       
+             office in China                         
+             met with Chinese                        
+             during a Nuclear                        
+             meeting in late                         
+             treatment of North                      
+             policy for North                        
+             thing to fix                            
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 76
+Rarity caused by use of less common words: 24
+Found in common trigram corpus: 31
+Exceeded Yahoo hits threshold: 19
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text using handwritten rules:
+
+"almost used like most" attribute near "almost" (word 143): 
+"China on an almost daily basis . The "
+
+"determiner noun" attribute near "thing" (word 425): 
+"North Korean defectors . I wanted thing to fix the "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 1), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 1), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 1), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

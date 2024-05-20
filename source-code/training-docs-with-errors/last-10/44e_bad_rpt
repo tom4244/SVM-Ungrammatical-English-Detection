@@ -1,0 +1,44 @@
+Grammatical analysis report for 'error-added-docs/44e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   1     3    840 held a apple                             
+  14    54   3785 expressed the Japanese                   
+  14    74    732 beauty from something                    
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             for the 2012                            
+             used the colors                         
+             disaster of a                           
+             by the 1986                             
+             ask my audience                         
+             audience a question                     
+             through my designs                      
+             designs about the                       
+             future of nature                        
+             nature in Japan                         
+             hope my clothes                         
+             through its designs                     
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 93
+Rarity caused by use of less common words: 45
+Found in common trigram corpus: 33
+Exceeded Yahoo hits threshold: 12
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text:
+
+Drawing on the force of nature demonstrated by the Great East Japan Earthquake , many carrot or many designers embraced the theme of " coexistence " at the event , held a apple or year after the massive earthquake and tsunami . 
+"determiner a/an vowel/cons" attribute at 87: "held a apple or "
+
+For example , the designer re - created a blueish green , mossy forest using a uniquely woven fabric on a miniskirt . 
+"determiner a/an vowel/cons" attribute at 262: "using a uniquely woven "
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 2), ('dtrm-an', 0), ('dtrm-any', 0), ('dtrm-asp', 0), ('dtrm-some', 0), ('dtrm-tgm', 2), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

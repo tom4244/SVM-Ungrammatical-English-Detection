@@ -1,0 +1,64 @@
+Grammatical analysis report for 'training-docs-with-errors/19e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   9     2   4123 relationships to scenes                  
+  22   951   2120 advice for Japanese                      
+  29    70    503 him into comedy                          
+  33    32   3723 Americans by watching                    
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             about his program                       
+             became a global                         
+             sign with their                         
+             enjoy our show                          
+             On the show                             
+             show to win                             
+             After each contest                      
+             around the 10                           
+             everything from their                   
+             scenes of them                          
+             s no privacy                            
+             edited into the                         
+             need her on                             
+             shot in Japan                           
+             Japan with half                         
+             half its production                     
+             team from Japan                         
+             while the Japanese                      
+             team all together                       
+             built his career                        
+             career on a                             
+             felt in Britain                         
+             knew about Japan                        
+             limits in that                          
+             more about Americans                    
+             watching this show                      
+             drink with them                         
+             Tuesday at 7                            
+             saw an big                              
+             need some salt                          
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 185
+Rarity caused by use of less common words: 55
+Found in common trigram corpus: 96
+Exceeded Yahoo hits threshold: 30
+Possibly ungrammatical (not in above categories): 4
+
+Grammar attributes found in the text using handwritten rules:
+
+"determiner a/an vowel/cons" attribute near "an" (word 881): 
+". I saw an big boat . He "
+
+"determiner some/any" attribute near "some" (word 890): 
+"He doesn ' t need some salt . . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 1), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 1), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 1), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

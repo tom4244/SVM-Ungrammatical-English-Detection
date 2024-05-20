@@ -1,0 +1,35 @@
+Grammatical analysis report for 'training-docs-no-errors/24e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   2    63   4222 seen by rescue                           
+   3    16    456 found several bear                       
+   5    25   2579 removed any snow                         
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             officers on Saturday                    
+             route that six                          
+             over a concrete                         
+             killed by brown                         
+             killed by local                         
+             over the 4                              
+             site on Saturday                        
+             area this winter                        
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 61
+Rarity caused by use of less common words: 24
+Found in common trigram corpus: 26
+Exceeded Yahoo hits threshold: 8
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 1), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 1), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

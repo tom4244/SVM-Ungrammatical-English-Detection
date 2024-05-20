@@ -1,0 +1,50 @@
+Grammatical analysis report for 'training-docs-no-errors/20e' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   8    74    526 costs about 34                           
+  30   618   1900 only for demand                          
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             visited the website                     
+             performed every month                   
+             that her domestic                       
+             stuff of TV                             
+             prefer a face                           
+             visit the firm                          
+             at their clients                        
+             before the parents                      
+             employee at their                       
+             coupons for 14                          
+             available at stores                     
+             requests for standard                   
+             services for residents                  
+             known for sending                       
+             help with at                            
+             covered by nursing                      
+             minutes of cleaning                     
+             services a month                        
+             requests from people                    
+             company to check                        
+             although this figure                    
+             Center of Japan                         
+             customers to exercise                   
+             on an agency                            
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 126
+Rarity caused by use of less common words: 49
+Found in common trigram corpus: 51
+Exceeded Yahoo hits threshold: 24
+Possibly ungrammatical (not in above categories): 2
+
+Grammar attributes found in the text using handwritten rules:
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 0), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 2), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

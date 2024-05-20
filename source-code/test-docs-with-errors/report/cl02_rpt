@@ -1,0 +1,52 @@
+Grammatical analysis report for 'test-docs-with-errors/cl02' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+   3   959    654 experience of part                       
+  10    47    265 people at part                           
+  12    47    265 people at part                           
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             important for college                   
+             base on my                              
+             have a experience                       
+             society by having                       
+             teacher of private                      
+             boy of first                            
+             change the jobs                         
+             go to different                         
+             is from different                       
+             is that getting                         
+             do by getting                           
+             from this three                         
+             important for college                   
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 49
+Rarity caused by use of less common words: 4
+Found in common trigram corpus: 29
+Exceeded Yahoo hits threshold: 13
+Possibly ungrammatical (not in above categories): 3
+
+Grammar attributes found in the text using handwritten rules:
+
+"noun reasons" attribute near "reasons" (word 19): 
+"There are three reasons I think so . By "
+
+"noun reasons" attribute near "reasons" (word 37): 
+". I wrote reasons which base on my experience "
+
+"determiner a/an vowel/cons" attribute near "a" (word 55): 
+"I can have a experience of society by "
+
+"determiner noun" attribute near "importance" (word 109): 
+"get money . I can learn importance of money . "
+
+
+attribute dictionary: 
+[('adj-many', 0), ('adj-tgm', 0), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 1), ('dtrm-an', 0), ('dtrm-both', 0), ('dtrm-dsp', 0), ('dtrm-noun', 1), ('dtrm-some', 0), ('dtrm-tgm', 0), ('noun-reason', 2), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 3), ('prnper-tgm', 0), ('prnpos-tgm', 0), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]

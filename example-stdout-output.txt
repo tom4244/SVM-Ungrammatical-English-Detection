@@ -1,0 +1,210 @@
+﻿Example of stdout output from the text-classifier.py program
+
+$ ./text-classifier.py
+Features for determiner SVM: [7, 8, 9, 10, 11, 12, 13, 25]
+Analyzing 'training-docs-with-errors/01e_bad'
+Analyzing 'training-docs-with-errors/02e_bad'
+Analyzing 'training-docs-with-errors/03e_bad'
+Analyzing 'training-docs-with-errors/04e_bad'
+Analyzing 'training-docs-with-errors/05e_bad'
+Analyzing 'training-docs-with-errors/06e_bad'
+Analyzing 'training-docs-with-errors/07e_bad'
+Analyzing 'training-docs-with-errors/08e_bad'
+Analyzing 'training-docs-with-errors/09e_bad'
+Analyzing 'training-docs-with-errors/10e_bad'
+Analyzing 'training-docs-with-errors/11e_bad'
+Analyzing 'training-docs-with-errors/12e_bad'
+Analyzing 'training-docs-with-errors/13e_bad'
+Analyzing 'training-docs-with-errors/14e_bad'
+Analyzing 'training-docs-with-errors/15e_bad'
+Analyzing 'training-docs-with-errors/16e_bad'
+Analyzing 'training-docs-with-errors/17e_bad'
+Analyzing 'training-docs-with-errors/18e_bad'
+Analyzing 'training-docs-with-errors/19e_bad'
+Analyzing 'training-docs-with-errors/20e_bad'
+Analyzing 'training-docs-with-errors/21e_bad'
+Analyzing 'training-docs-with-errors/22e_bad'
+Analyzing 'training-docs-with-errors/23e_bad'
+Analyzing 'training-docs-with-errors/24e_bad'
+Analyzing 'training-docs-with-errors/25e_bad'
+Analyzing 'training-docs-with-errors/26e_bad'
+Analyzing 'training-docs-with-errors/27e_bad'
+Analyzing 'training-docs-with-errors/28e_bad'
+Analyzing 'training-docs-with-errors/29e_bad'
+Analyzing 'training-docs-with-errors/30e_bad'
+Analyzing 'training-docs-with-errors/31e_bad'
+Analyzing 'training-docs-with-errors/32e_bad'
+Analyzing 'training-docs-with-errors/33e_bad'
+Analyzing 'training-docs-with-errors/34e_bad'
+Analyzing 'training-docs-with-errors/35e_bad'
+Analyzing 'training-docs-with-errors/36e_bad'
+Analyzing 'training-docs-with-errors/37e_bad'
+Analyzing 'training-docs-with-errors/38e_bad'
+Analyzing 'training-docs-with-errors/39e_bad'
+Analyzing 'training-docs-with-errors/40e_bad'
+Analyzing 'training-docs-no-errors/01e'
+Analyzing 'training-docs-no-errors/02e'
+Analyzing 'training-docs-no-errors/03e'
+Analyzing 'training-docs-no-errors/04e'
+Analyzing 'training-docs-no-errors/05e'
+Analyzing 'training-docs-no-errors/06e'
+Analyzing 'training-docs-no-errors/07e'
+Analyzing 'training-docs-no-errors/08e'
+Analyzing 'training-docs-no-errors/09e'
+Analyzing 'training-docs-no-errors/10e'
+Analyzing 'training-docs-no-errors/11e'
+Analyzing 'training-docs-no-errors/12e'
+Analyzing 'training-docs-no-errors/13e'
+Analyzing 'training-docs-no-errors/14e'
+Analyzing 'training-docs-no-errors/15e'
+Analyzing 'training-docs-no-errors/16e'
+Analyzing 'training-docs-no-errors/17e'
+Analyzing 'training-docs-no-errors/18e'
+Analyzing 'training-docs-no-errors/19e'
+Analyzing 'training-docs-no-errors/20e'
+Analyzing 'training-docs-no-errors/21e'
+Analyzing 'training-docs-no-errors/22e'
+Analyzing 'training-docs-no-errors/23e'
+Analyzing 'training-docs-no-errors/24e'
+Analyzing 'training-docs-no-errors/25e'
+Analyzing 'training-docs-no-errors/26e'
+Analyzing 'training-docs-no-errors/27e'
+Analyzing 'training-docs-no-errors/28e'
+Analyzing 'training-docs-no-errors/29e'
+Analyzing 'training-docs-no-errors/30e'
+Analyzing 'training-docs-no-errors/31e'
+Analyzing 'training-docs-no-errors/32e'
+Analyzing 'training-docs-no-errors/33e'
+Analyzing 'training-docs-no-errors/34e'
+Analyzing 'training-docs-no-errors/35e'
+Analyzing 'training-docs-no-errors/36e'
+Analyzing 'training-docs-no-errors/37e'
+Analyzing 'training-docs-no-errors/38e'
+Analyzing 'training-docs-no-errors/39e'
+Analyzing 'training-docs-no-errors/40e'
+Tagging and measuring features in training documents
+Maximums (for scaling): 
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 3, 1, 2, 2, 1, 1, 1, 1]
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, degree=3,
+  gamma=0.125, kernel=rbf, probability=False, shrinking=True, tol=0.001,
+  verbose=False)
+Support vectors: 
+[[ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.67  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  1.  ]
+ [ 0.    0.    0.    0.    0.    0.    1.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.    0.  ]
+ [ 1.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.33  0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.    0.  ]
+ [ 0.    0.    0.    1.    0.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.    0.    0.    0.67  0.  ]
+ [ 0.    0.    1.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.33  0.  ]
+ [ 1.    0.    1.    0.    0.    0.    0.33  0.  ]
+ [ 1.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.33  0.  ]
+ [ 0.    0.    1.    1.    0.    0.    0.    0.  ]
+ [ 0.    0.    1.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    1.    0.    0.    0.33  0.  ]
+ [ 1.    0.    0.    1.    0.    0.    0.33  1.  ]
+ [ 0.    0.    0.    1.    0.    0.    1.    0.  ]
+ [ 0.    0.    0.    0.    0.    1.    0.    0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.    0.  ]
+ [ 0.    1.    0.    0.    0.    0.    0.    0.  ]
+ [ 1.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.33  0.  ]
+ [ 0.    0.    0.    0.    1.    0.    0.    0.  ]]
+
+Analyzing 'test-docs-with-errors/cl01'
+Analyzing 'test-docs-with-errors/cl02'
+Analyzing 'test-docs-with-errors/cl03'
+Analyzing 'test-docs-with-errors/cl04'
+Analyzing 'test-docs-with-errors/cl05'
+Analyzing 'test-docs-with-errors/cl06'
+Analyzing 'test-docs-with-errors/cl07'
+Analyzing 'test-docs-with-errors/cl08'
+Analyzing 'test-docs-with-errors/cl09'
+Analyzing 'test-docs-with-errors/cl10'
+Analyzing 'test-docs-with-errors/cl11'
+Analyzing 'test-docs-with-errors/cl12'
+Analyzing 'test-docs-with-errors/cl13'
+Analyzing 'test-docs-with-errors/cl14'
+Analyzing 'test-docs-with-errors/cl15'
+Analyzing 'test-docs-with-errors/cl16'
+Analyzing 'test-docs-with-errors/cl17'
+Analyzing 'test-docs-with-errors/cl18'
+Analyzing 'test-docs-with-errors/cl19'
+Analyzing 'test-docs-with-errors/cl20'
+Analyzing 'test-docs-no-errors/41e'
+Analyzing 'test-docs-no-errors/42e'
+Analyzing 'test-docs-no-errors/43e'
+Analyzing 'test-docs-no-errors/44e'
+Analyzing 'test-docs-no-errors/45e'
+Analyzing 'test-docs-no-errors/46e'
+Analyzing 'test-docs-no-errors/47e'
+Analyzing 'test-docs-no-errors/48e'
+Analyzing 'test-docs-no-errors/49e'
+Analyzing 'test-docs-no-errors/50e'
+Tagging and measuring features in documents to be classified
+Test results from SVM: 
+[ 1.  1.  0.  0.  1.  1.  0.  1.  0.  1.  0.  0.  1.  0.  0.  0.  0.  1.
+  1.  1.  0.  0.  0.  0.  0.  0.  0.  0.  0.  0.]
+
+        filename  truth  SVM class     attributes
+
+         cl01    errors    errors        2.3
+         cl02    errors    errors        2.0
+         cl03    errors     clean        0.0
+         cl04    errors     clean        0.0
+         cl05    errors    errors        1.0
+         cl06    errors    errors        1.0
+         cl07    errors     clean        0.7
+         cl08    errors    errors        1.0
+         cl09    errors     clean        0.0
+         cl10    errors    errors        3.0
+         cl11    errors     clean        0.0
+         cl12    errors     clean        0.0
+         cl13    errors    errors        1.0
+         cl14    errors     clean        0.0
+         cl15    errors     clean        0.0
+         cl16    errors     clean        0.0
+         cl17    errors     clean        0.0
+         cl18    errors    errors        1.7
+         cl19    errors    errors        1.0
+         cl20    errors    errors        1.0
+          41e     clean     clean        0.0
+          42e     clean     clean        0.0
+          43e     clean     clean        0.0
+          44e     clean     clean        0.3
+          45e     clean     clean        0.3
+          46e     clean     clean        0.0
+          47e     clean     clean        0.0
+          48e     clean     clean        0.3
+          49e     clean     clean        0.0
+          50e     clean     clean        0.3

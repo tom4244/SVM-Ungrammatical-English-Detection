@@ -1,0 +1,74 @@
+Grammatical analysis report for 'training-docs-with-errors/09e_bad' file.
+
+Possible ungrammatical trigrams
+  (not found in common trigram corpus),
+  with sentence number in which they occured,
+  number of matches in Yahoo limited search,
+  and individual word rarity index (higher is rarer):
+
+  14    43     81 which several directors                  
+  16   868    821 movie by next                            
+  29     7    863 script in areas                          
+  43    10    987 written his scripts                      
+  44    51    864 meant this film                          
+  59   379   3796 reached my physical                      
+
+Trigrams not considered because they had more than 1000 Yahoo matches:
+
+             on his latest                           
+             produced many films                     
+             for his latest                          
+             awarded to full                         
+             films that reflect                      
+             trends in international                 
+             currently on a                          
+             with the 2004                           
+             wrote the film                          
+             out about making                        
+             because her health                      
+             for the video                           
+             born on New                             
+             involvement in all                      
+             was in 1997                             
+             1997 with her                           
+             with her signature                      
+             missing my late                         
+             began their conversation                
+             so her son                              
+             with their project                      
+             images of physical                      
+             Using the input                         
+             input of two                            
+             during his fourth                       
+             boy with deep                           
+             after the lead                          
+             building a secret                       
+             base in an                              
+             film that first                         
+             where the soft                          
+             feel to him                             
+             learned about and                       
+             both of Joe                             
+             thing to fix                            
+
+Ungrammatical trigram search summary:
+Total trigrams checked: 286
+Rarity caused by use of less common words: 111
+Found in common trigram corpus: 134
+Exceeded Yahoo hits threshold: 35
+Possibly ungrammatical (not in above categories): 6
+
+Grammar attributes found in the text using handwritten rules:
+
+"many with sing noun" attribute near "many" (word 1272): 
+"role , in many of Tsukamoto ' s films "
+
+"determiner both" attribute near "both" (word 1511): 
+"I talked with both of Joe and Bob . "
+
+"determiner noun" attribute near "thing" (word 1519): 
+"Joe and Bob . I wanted thing to fix the "
+
+
+attribute dictionary: 
+[('adj-many', 1), ('adj-tgm', 1), ('adjcmp-tgm', 0), ('adjsup-tgm', 0), ('adv-almost', 0), ('adv-tgm', 0), ('advcmp-tgm', 0), ('dtrm-a', 0), ('dtrm-an', 0), ('dtrm-both', 1), ('dtrm-dsp', 0), ('dtrm-noun', 1), ('dtrm-some', 0), ('dtrm-tgm', 1), ('noun-reason', 0), ('noun-sp', 0), ('noun-svdis', 0), ('noun-tgm', 0), ('prep-tgm', 2), ('prnper-tgm', 0), ('prnpos-tgm', 2), ('to-tgm', 0), ('verb-can', 0), ('verb-prp', 0), ('verb-tgm', 0), ('whdtrm-tgm', 0)]
