@@ -169,15 +169,15 @@ def trigram_corpus_check(tagged_text):
     """
     global reportfile, attr, yahoo_misslist, yahoo_discarded, yahoo_db
     # match all trigrams, overlapping to start from each word
-    getgrams = re.compile(r'(\(\S+?\s\S+?\))
+    getgrams = re.compile(r'(\(\S+?\s\S+?\)) \
                          (?=(\(\S+?\s\S+?\)\(\S+?\s\S+?\)))')
     all_text_trigrams = getgrams.finditer(tagged_text)
     # match tagged trigram from line
     gram = re.compile(r'\(\S+?\s\S+?\)\(\S+?\s\S+?\)\(\S+?\s\S+?\)')
     # match comma
     comma = re.compile(r',')
-    words_notags = re.compile(r'\((\S+?)\s\S+?\)\((\S+?)\s\S+?\)
-                              \((\S+?)\s\S+?\)')
+    words_notags = re.compile(r'\((\S+?)\s\S+?\)\((\S+?)\s\S+?\) \
+                             ((\S+?)\s\S+?\)')
     # match trigram middle word part of speech tag
     word2_pos = re.compile(r'\(\S+?\s\S+?\)\(\S+?\s(\S+?)\)\(\S+?\s\S+?\)')
     matchlist = []
@@ -213,8 +213,7 @@ def trigram_corpus_check(tagged_text):
                 uncommon_words = uncommon_words + 1
             else:
                 rarity1 = re.search(r'\S+ (\d+)', w1_rarity).group(1)
-                w2_rarity = 
-                    binary_search(word3.lower(), 
+                w2_rarity = binary_search(word3.lower(), 
                         "(\S+) \d+", 1, freqfilename, 32)
                 if w2_rarity is None:
                     too_rare = True
@@ -226,8 +225,7 @@ def trigram_corpus_check(tagged_text):
                 filename = "word-corpuses/" + word2 + "_corpus"
                 gram_pat = "\(\S+?\s\S+?\)\(\S+?\s\S+?\)\(\S+?\s\S+?\)"
                 # note that the tagged trigram search is case-sensitive
-                found = 
-                    binary_search(tagged_trigram, gram_pat, 0, filename, 64)
+                found = binary_search(tagged_trigram, gram_pat, 0, filename, 64)
                 if found:
                     matched_google = matched_google + 1
                 else:
@@ -261,8 +259,8 @@ def trigram_corpus_check(tagged_text):
     reportfile.write("  and individual word rarity index (higher is rarer):\n\n")
     for line in yahoo_misslist:
         reportfile.write("{:>4} {:>5} {:>6} {:<40} \n".format(*line))
-    reportfile.write("\nTrigrams not considered because they had more 
-         than %s Yahoo matches:\n\n" % yahoo_threshold)
+    reportfile.write("\nTrigrams not considered because they had more than %s \
+                    Yahoo matches:\n\n" % yahoo_threshold)
     for line in yahoo_discarded:
         if line[0] == 99999:
             reportfile.write("             {:<40}\n".format(line[1]))
@@ -276,8 +274,8 @@ def trigram_corpus_check(tagged_text):
                      matched_google)
     reportfile.write("Exceeded Yahoo hits threshold: %s\n" % 
                      (len(yahoo_discarded)))
-    reportfile.write("Possibly ungrammatical 
-        (not in above categories): %s\n\n" % (len(yahoo_misslist)))
+    reportfile.write("Possibly ungrammatical (not in above categories): %s\n\n" \
+                    % (len(yahoo_misslist)))
 
 def print_attribute(name, next_one, direction):
     """ Print out a grammatical attribute detected/measured for a word."""
@@ -390,14 +388,13 @@ def check_rule(instructions):
         sequence = False
     for start_word in start_here:
         # Starting point for pattern can be a tag or a word
-        if word[word_number].tag == start_word or 
-                word[word_number].spelling.lower() == start_word:
+        if word[word_number].tag == start_word or \
+           word[word_number].spelling.lower() == start_word:
             if direction == 'backward':
-                begin, end, step = word_number - 1, 
-                    word_number - length - 1, -1
+                begin, end, step = word_number - 1, word_number - length - 1, -1
             else:
-                begin, end, step = word_number + phrase_offset + 1, 
-                                   word_number + phrase_offset + length + 1, 1
+                begin, end, step = word_number + phrase_offset + 1, \
+                    word_number + phrase_offset + length + 1, 1
             if begin < 0: begin = 0
             if end > wordcount: end = wordcount
             for this in range(begin, end, step):
@@ -408,45 +405,45 @@ def check_rule(instructions):
                         this = this + 1
                     if word[this].spelling in seq_abort:
                         break
-                    if word[this].tag in pattern_end or 
+                    if word[this].tag in pattern_end or \
+                        word[this].spelling.lower() in pattern_end:
+                        while word[this].tag in pattern_end or \
                             word[this].spelling.lower() in pattern_end:
-                        while word[this].tag in pattern_end or 
-                                word[this].spelling.lower() in pattern_end:
                             this += 1
                             if word[this].spelling in seq_abort:
                                 break
                         this -= 1
                 # Early stop condition or end-of-sentence check
-                if early_stop != 'no stop condition' and 
-                        (word[this].tag in early_stop or
+                if early_stop != 'no stop condition' and \
+                    (word[this].tag in early_stop or
                          word[this].spelling.lower() in early_stop or
                          word[this].spelling == '.'):
                     break  # No match; found cancelling stop condition
                 # Negative condition check
-                if re.search(r' for missing ', find_part) is not None and 
-                        (word[this].spelling.lower() in pattern_end or
-                         word[this].tag in pattern_end):
+                if re.search(r' for missing ', find_part) is not None and \
+                    (word[this].spelling.lower() in pattern_end or \
+                    word[this].tag in pattern_end):
                     break  # No match; negative condition satisfied
                 # Condition checks
                 if (pattern_end == '_SVS_' and
                     start_word == 'a' and
-                    word[this].spelling.lower()[0] in
-                    ['a', 'e', 'i', 'o', 'u']) or 
+                    word[this].spelling.lower()[0] in \
+                        ['a', 'e', 'i', 'o', 'u']) or \
                         (pattern_end == '_SCS_' and
                         start_word == 'an' and
                         word[this].spelling.lower()[0] in
                         string.ascii_letters and
                         word[this].spelling.lower()[0] not in
-                        ['a', 'e', 'i', 'o', 'u', 'h']) or 
-                        word[this].tag in pattern_end or 
+                        ['a', 'e', 'i', 'o', 'u', 'h']) or \
+                        word[this].tag in pattern_end or \
                         word[this].spelling.lower() in pattern_end:
                     # pattern succesfully matched; print out match
                     print_attribute(attribute_name, this, direction)
                     return True
                 # Negative condition check continued
                 if re.search(r' for missing ', find_part) is not None:
-                    if (direction == 'backward' and this == end + 1) or 
-                            this == end - 1:
+                    if (direction == 'backward' and this == end + 1) or \
+                        this == end - 1:
                         # pattern successfully matched; print out match
                         print_attribute(attribute_name, this, direction)
                         return True
@@ -457,9 +454,9 @@ def adj():
         Example: 'I don't have many carrot.'
     """
     global attr
-    if check_rule("Attribute: 'many with sing noun'. 
-        From 'many' check forward 8 words for ['NN', 'NNP']. 
-        But stop looking if tags ['NNS', 'NNPS'] are found first."):
+    if check_rule("Attribute: 'many with sing noun'. \
+        From 'many' check forward 8 words for ['NN', 'NNP']. \
+        But stop looking if tags ['NNS', 'NNPS'] are found first."): \
         attr['adj-many'] = attr['adj-many'] + 1
 
 def adjcmp():
@@ -478,10 +475,10 @@ def adv():
         example: 'Almost sea creatures are fish.'
     """
     global attr
-    if check_rule("Attribute: 'almost used like most'. 
-        From 'almost' check forward 1 word for 
+    if check_rule("Attribute: 'almost used like most'. \
+        From 'almost' check forward 1 word for \
         ['JJ', 'NNS', 'NNPS']. No stop condition. "):
-        attr['adv-almost'] = attr['adv-almost'] + 1
+        attr['adv-almost'] = attr['adv-almost'] + 1 
     """ if check_rule("Attribute: 'almost used like most'. 
         From 'almost' check forward 1 word for missing 
         ['all', 'no', 'any', 'CD', 'anyone', 'anybody', 
@@ -502,40 +499,40 @@ def dtrm():
     # Check for 'a' followed by vowel sound.
     # Example: 'I don't have a eraser.'
     global attr
-    if check_rule("Attribute: 'determiner a/an vowel/cons'. 
-        From 'a' check forward 1 word for starting vowel sound. 
-        But ignore it if 
-        ['u', 'unesco', 'united', 'universal', 'utility', 'uniquely', 
-        'university', 'uniform'] are found."):
+    if check_rule("Attribute: 'determiner a/an vowel/cons'. \
+        From 'a' check forward 1 word for starting vowel sound. \
+        But ignore it if \
+        ['u', 'unesco', 'united', 'universal', 'utility', 'uniquely', \
+        'university', 'uniform'] are found."): \
         attr['dtrm-a'] = attr['dtrm-a'] + 1
 
     # Check for 'an' followed by consonant sound.
     # Example: 'I saw an big boat.'
-    if check_rule("Attribute: 'determiner a/an vowel/cons'. 
-        From 'an' check forward 1 word for starting consonant sound. 
-        No stop condition."):
+    if check_rule("Attribute: 'determiner a/an vowel/cons'. \
+        From 'an' check forward 1 word for starting consonant sound. \
+        No stop condition."): \
         attr['dtrm-an'] = attr['dtrm-an'] + 1
 
     # Check for 'both of' followed by nouns.
     # Example: 'I talked with both of Joe and Bob.'
-    if check_rule("Attribute: 'determiner both'. 
-        From the phrase 'both of' check forward 1 word 
-        for ['NN', 'NNS', 'NNP', 'NNPS']. 
-        No stop condition."):
+    if check_rule("Attribute: 'determiner both'. \
+        From the phrase 'both of' check forward 1 word \
+        for ['NN', 'NNS', 'NNP', 'NNPS']. \
+        No stop condition."): \
         attr['dtrm-both'] = attr['dtrm-both'] + 1
 
     # Check for 'a, an, this, or that' followed by plural noun
     # possibly coming after adjectives and noun modifiers.
     # Example: 'She doesn't like a train station dogs.'
-    if check_rule("Attribute: 'determiner sing/plur'. 
-        From ['a', 'an', 'this'] check forward 1 word 
-        but skipping ['VBG', 'JJ'] 
-        for the last in a sequence of 
-        ['NN', 'NNP', 'NNS', 'NNPS']. 
-        But ignore it if the sequence contains 
-        ['few', 'means', 'lot', 'using'], 
-        or the end is 
-        ['NN', 'NNP', 'centers', 'species', 'strikes', 'rhinoceros']. "):
+    if check_rule("Attribute: 'determiner sing/plur'. \
+        From ['a', 'an', 'this'] check forward 1 word \
+        but skipping ['VBG', 'JJ'] \
+        for the last in a sequence of \
+        ['NN', 'NNP', 'NNS', 'NNPS']. \
+        But ignore it if the sequence contains \
+        ['few', 'means', 'lot', 'using'], \
+        or the end is \
+        ['NN', 'NNP', 'centers', 'species', 'strikes', 'rhinoceros']. "): \
         attr['dtrm-dsp'] = attr['dtrm-dsp'] + 1
 
     # TBD: A separate rule like the one above for 'that' which
@@ -543,9 +540,9 @@ def dtrm():
 
     # Check for 'some' instead of 'any' after a negative verb.
     # Example: 'He doesn't need some salt.'
-    if check_rule("Attribute: 'determiner some/any'. 
-        From 'some' check backward 6 words for ['not', 't']. 
-        No stop condition."):
+    if check_rule("Attribute: 'determiner some/any'. \
+        From 'some' check backward 6 words for ['not', 't']. \
+        No stop condition."): \
         attr['dtrm-some'] = attr['dtrm-some'] + 1
 
 def noun():
@@ -554,32 +551,32 @@ def noun():
 
     # Check for 'reason(s)' used ungrammatically.
     # Example: 'My reason to doing that is I want to.'
-    if check_rule("Attribute: 'noun reasons'. 
-        From ['reason', 'reasons'] check forward 2 words 
-        for missing ['for', 'that', 'why', 'is', 'because']. 
-        No stop condition."):
+    if check_rule("Attribute: 'noun reasons'. \
+        From ['reason', 'reasons'] check forward 2 words \
+        for missing ['for', 'that', 'why', 'is', 'because']. \
+        No stop condition."): \
         attr['noun-reason'] = attr['noun-reason'] + 1
 
     # Check for 'lot of' followed by singular instead of plural.
     # Example: 'I bought a lot of thing today.'
-    if check_rule("Attribute: 'noun sing/plur'. 
-        From 'lot' check forward 6 words for 'NN'. 
-        But ignore it if ['VBG', 'NNS'] are found."):
-        attr['noun-sp'] = attr['noun-sp'] + 1
+    if check_rule("Attribute: 'noun sing/plur'. \
+        From 'lot' check forward 6 words for 'NN'. \
+        But ignore it if ['VBG', 'NNS'] are found."): \
+        attr['noun-sp'] = attr['noun-sp'] + 1 
 
     # Check for singular noun followed by wrong verb type.
     # Example 'He like to bowl.'
-    if check_rule("Attribute: 'noun subj-verb disagreement'. 
-        From 'NN' check forward 1 word for 'VBP'. 
-        No stop condition."):
+    if check_rule("Attribute: 'noun subj-verb disagreement'. \
+        From 'NN' check forward 1 word for 'VBP'. \
+        No stop condition."): \
         attr['noun-svdis'] = attr['noun-svdis'] + 1
 
     # check for 'thing' without a determiner
     #  Example: 'I wanted thing to fix the car.'
-    if check_rule("Attribute: 'determiner noun'. 
-        From ['thing', 'importance'] 
-        check backward 3 words for missing ['DT', 'one', 'PRP$']. 
-        No stop condition."):
+    if check_rule("Attribute: 'determiner noun'. \
+        From ['thing', 'importance'] \
+        check backward 3 words for missing ['DT', 'one', 'PRP$']. \
+        No stop condition."): \
         attr['dtrm-noun'] = attr['dtrm-noun'] + 1
 
 def prep():
@@ -607,16 +604,16 @@ def verb():
         Example: I agree this idea.
     """
     global word_number, attr
-    if check_rule("Attribute: 'preposition missing'. 
-        From 'agree' check forward 2 words for missing 
-        ['with', 'to', 'that', ',']. No stop condition."):
+    if check_rule("Attribute: 'preposition missing'. \
+        From 'agree' check forward 2 words for missing \
+        ['with', 'to', 'that', ',']. No stop condition."): \
         attr['verb-prp'] = attr['verb-prp'] + 1
 
     # check for missing verb after 'can'
     #  example: I can many miles.
-    if check_rule("Attribute: 'verb missing'. 
-        From 'can' check forward 3 words for missing 
-        ['VB', 'VBD', 'VBP']. No stop condition."):
+    if check_rule("Attribute: 'verb missing'. \
+        From 'can' check forward 3 words for missing \
+        ['VB', 'VBD', 'VBP']. No stop condition."): \
         attr['verb-can'] = ['verb-can'] + 1
 
 def whdtrm():
@@ -657,7 +654,7 @@ def apply_rules():
         in 'tags' dictionary.
         precondition: trigram_corpus_check has been run """
     global word, word_number, sentence_list
-    reportfile.write("Grammar attributes found in the text 
+    reportfile.write("Grammar attributes found in the text \
         using handwritten rules:\n\n")
     last_sentence = None
     for item in range(len(word)):
@@ -671,7 +668,7 @@ def file_len(fname):
     file_sizes = {}
     if file_sizes.get(fname, None):
         return file_sizes[fname]
-    p = subprocess.Popen(['wc', '-l', fname],
+    p = subprocess.Popen(['wc', '-l', fname], \
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     result, err = p.communicate()
     if p.returncode != 0:
@@ -761,8 +758,8 @@ def listfiles(filepath):
 
 # Directory setup
 # Get paths for subdirectories from command line if provided
-parser = argparse.ArgumentParser(description=
-    description'Identify and classify errors in English text')
+parser = argparse.ArgumentParser(description='Identify and classify \
+    errors in English text') 
 parser.add_argument('-l', action='store_true', 
     help='use linear kernel instead of default RBF kernel')
 parser.add_argument('-y', action='store_true', 
@@ -776,7 +773,7 @@ parser.add_argument('-e',
 parser.add_argument('-ne', 
     help='specify subdirectory for training documents without errors')
 parser.add_argument('-te',
-    help='specify subdirectory for test documents with 
+    help='specify subdirectory for test documents with \
     errors or documents to be classified with errors unknown')
 parser.add_argument('-tne', 
     help='specify subdirectory for test documents without errors')
@@ -887,7 +884,7 @@ else:
     dtrm_X = (numpy.array(X)[:, dtrm_columns]).tolist()
     unscaled_dtrm_X = (numpy.array(unscaled_X)[:, dtrm_columns]).tolist()
     results_file.write("Training document feature measurements\n")
-    results_file.write("Document  
+    results_file.write("Document \
          Unscaled dtrm features     Scaled dtrm features\n")
     for r, row in enumerate(dtrm_X):
         results_file.write(
@@ -895,7 +892,7 @@ else:
             unscaled_dtrm_X[r], ', '.join('%.2g' % item for item in row)))
     # Make label array for training, bad docs first
     dtrm_Y = ([1] * bad_doc_qty) + ([0] * good_doc_qty)
-    results_file.write("Training labels 
+    results_file.write("Training labels \
         (1 indicates grammatical error): \n %s\n" % dtrm_Y)
     # Train dtrm SVM
     prob = libsvm.svm_problem(dtrm_Y, dtrm_X)
@@ -942,11 +939,11 @@ unscaled_dtrm_test_X = \
     (numpy.array(unscaled_test_X)[:, dtrm_columns]).tolist()
 dtrm_test_X = (numpy.array(test_X)[:, dtrm_columns]).tolist()
 results_file.write("Test document feature measurements\n")
-results_file.write("Document Unscaled dtrm test features     
+results_file.write("Document Unscaled dtrm test features \
                     Scaled dtrm test features\n")
 for r, row in enumerate(dtrm_test_X):
     results_file.write(
-        "  %s    %s      [%s]\n" % (test_docs[r], unscaled_dtrm_test_X[r], ', 
+        "  %s    %s      [%s]\n" % (test_docs[r], unscaled_dtrm_test_X[r], ', \
         '.join('%.2g' % item for item in row)))
 
 # Classify with SVM
@@ -980,7 +977,7 @@ for row, doc in enumerate(test_docs_clean):
 print("\n        filename  truth  SVM class     attributes\n")
 for row in testdocinfo:
     print(' %12s %9s %9s        %3.1f' % (row[0], row[1], row[2], row[3]))
-results_file.write("       filename    truth    
+results_file.write("       filename    truth   \
     SVM class         attributes\n")
 for row in testdocinfo:
     results_file.write("%14s %9s  %9s              %3.1f\n" % 
